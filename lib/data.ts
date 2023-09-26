@@ -108,6 +108,7 @@ export const projectsData = [
       "I crafted my portfolio website, prioritizing front-end development to deliver a visually captivating and interactive platform that showcases my work, skills, and passion for web design. ",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: portfolioSegniImg,
+    linkUrl: "https://segnitulu.vercel.app",
   },
   {
     title: "Computer Science Society Club Website",
@@ -115,6 +116,7 @@ export const projectsData = [
       "Visually appealing and highly functional user interface and improved website performance by reducing load times for a smoother browsing experience.",
     tags: ["React", "TypeScript", "Next.js", "Email.js", "Chakra UI"],
     imageUrl: csswebsiteImg,
+    linkUrl: "https://css-website-staging.vercel.app",
   },
   {
     title: "New Roz Kabab Restaurant Website",
@@ -122,6 +124,7 @@ export const projectsData = [
       "Designed and developed a 15-page restaurant website with a responsive front-end and integrated back-end functionalities.",
     tags: ["HTML", "CSS", "JavaScript", "SQL", "PHP"],
     imageUrl: wordanalyticsImg,
+    linkUrl: "",
   },
 ] as const;
 
