@@ -119,6 +119,14 @@ export const projectsData = [
     linkUrl: "https://css-website-staging.vercel.app",
   },
   {
+    title: "Ticketing App",
+    description:
+      "Utilizing a robust database and seamless API calls, my Ticketing App integrates frontend and backend effortlessly. Experience streamlined event management with intuitive design and efficient functionality.",
+    tags: ["React", "TypeScript", "Next.js", "MonogoDB", "Tailwind"],
+    imageUrl: wordanalyticsImg,
+    linkUrl: "https://ticketing-app-nu.vercel.app",
+  },
+  {
     title: "New Roz Kabab Restaurant Website",
     description:
       "Designed and developed a 15-page restaurant website with a responsive front-end and integrated back-end functionalities.",
