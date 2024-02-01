@@ -8,7 +8,9 @@ import { IoFastFood } from "react-icons/io5"
 import { IoInformationCircle } from "react-icons/io5"
 import corpcommentImg from "@/public/corpcomment.png";
 import csswebsiteImg from "@/public/CSS-websiteImg.png";
+import ticket from "@/public/ticketImg.png;
 import portfolioSegniImg from "@/public/portfolio-segnit.png";
+import newRozKabab from "@/public/newRozKababImg.png;
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -123,7 +125,7 @@ export const projectsData = [
     description:
       "Utilizing a robust database and API calls, my Ticketing App integrates frontend and backend effortlessly. Experience streamlined event management with intuitive design and efficient functionality.",
     tags: ["React", "TypeScript", "Next.js", "MonogoDB", "Tailwind"],
-    imageUrl: ticketImg,
+    imageUrl: ticket,
     linkUrl: "https://ticketing-app-nu.vercel.app",
   },
   {
@@ -131,7 +133,7 @@ export const projectsData = [
     description:
       "Designed and developed a 15-page restaurant website with a responsive front-end and integrated back-end functionalities.",
     tags: ["HTML", "CSS", "JavaScript", "SQL", "PHP"],
-    imageUrl: newRozKababImg,
+    imageUrl: newRozKabab,
     linkUrl: "http://newroz-kebab.infinityfreeapp.com/?i=1",
   },
 ] as const;
