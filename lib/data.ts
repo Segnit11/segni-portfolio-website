@@ -123,7 +123,7 @@ export const projectsData = [
     description:
       "Utilizing a robust database and seamless API calls, my Ticketing App integrates frontend and backend effortlessly. Experience streamlined event management with intuitive design and efficient functionality.",
     tags: ["React", "TypeScript", "Next.js", "MonogoDB", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: ticketImg,
     linkUrl: "https://ticketing-app-nu.vercel.app",
   },
   {
