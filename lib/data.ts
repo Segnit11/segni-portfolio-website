@@ -1,16 +1,16 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { FaComputer } from "react-icons/fa6"
-import { FcManager } from "react-icons/fc"
+import { FaComputer } from "react-icons/fa6";
+import { FcManager } from "react-icons/fc";
 import { LuGraduationCap } from "react-icons/lu";
-import { BsFillHouseFill } from "react-icons/bs"
-import { IoFastFood } from "react-icons/io5"
-import { IoInformationCircle } from "react-icons/io5"
+import { BsFillHouseFill } from "react-icons/bs";
+import { IoFastFood } from "react-icons/io5";
+import { IoInformationCircle } from "react-icons/io5";
 import corpcommentImg from "@/public/corpcomment.png";
 import csswebsiteImg from "@/public/CSS-websiteImg.png";
-import ticket from "@/public/ticketImg.png;
+import ticketImgs from "@/public/ticketImg.png";
 import portfolioSegniImg from "@/public/portfolio-segnit.png";
-import newRozKabab from "@/public/newRozKababImg.png;
+import newRozKababImgs from "@/public/newRozKababImg.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -41,7 +41,6 @@ export const links = [
   },
 ] as const;
 
-
 export const experiencesData = [
   {
     title: "Bachelor of Arts – Computer Science",
@@ -61,7 +60,8 @@ export const experiencesData = [
   },
   {
     title: "IT Student Technician",
-    location: "Information Technology Solution Center, Concordia College, Moorhead, MN",
+    location:
+      "Information Technology Solution Center, Concordia College, Moorhead, MN",
     description:
       "I demonstrated exceptional problem-solving abilities by efficiently resolving a wide range of technical issues, consistently delivering effective solutions to optimize system performance. Additionally, I was responsible for installing and repairing minor software and hardware problems, ensuring minimal downtime and enhancing functionality for users. Providing exceptional online and phone support to customers was a key aspect of my role, where I consistently offered exemplary customer service, established strong connections, and swiftly resolved their technical concerns. ",
     icon: React.createElement(FaComputer),
@@ -71,7 +71,7 @@ export const experiencesData = [
     title: "Project Manager - Computer Science Society Club",
     location: "Concordia College, Moorhead, MN",
     description:
-    "As a Project Manager in the Computer Science Club, I led and managed technology projects, collaborating with members to define goals and allocate tasks. My commitment to open communication played a pivotal role in cultivating a culture of transparency and collaboration. I also facilitated workshops and training sessions to mentor and support fellow members, promoting skill development and knowledge sharing.",
+      "As a Project Manager in the Computer Science Club, I led and managed technology projects, collaborating with members to define goals and allocate tasks. My commitment to open communication played a pivotal role in cultivating a culture of transparency and collaboration. I also facilitated workshops and training sessions to mentor and support fellow members, promoting skill development and knowledge sharing.",
     icon: React.createElement(FcManager),
     date: "May 2023 - Present",
   },
@@ -99,9 +99,7 @@ export const experiencesData = [
     icon: React.createElement(IoInformationCircle),
     date: "Aug. 2023 – Present",
   },
-  
 ] as const;
-
 
 export const projectsData = [
   {
@@ -125,7 +123,7 @@ export const projectsData = [
     description:
       "Utilizing a robust database and API calls, my Ticketing App integrates frontend and backend effortlessly. Experience streamlined event management with intuitive design and efficient functionality.",
     tags: ["React", "TypeScript", "Next.js", "MonogoDB", "Tailwind"],
-    imageUrl: ticket,
+    imageUrl: ticketImgs,
     linkUrl: "https://ticketing-app-nu.vercel.app",
   },
   {
@@ -133,11 +131,10 @@ export const projectsData = [
     description:
       "Designed and developed a 15-page restaurant website with a responsive front-end and integrated back-end functionalities.",
     tags: ["HTML", "CSS", "JavaScript", "SQL", "PHP"],
-    imageUrl: newRozKabab,
+    imageUrl: newRozKababImgs,
     linkUrl: "http://newroz-kebab.infinityfreeapp.com/?i=1",
   },
 ] as const;
-
 
 export const skillsData = [
   "HTML",
