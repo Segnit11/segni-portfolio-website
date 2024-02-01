@@ -131,7 +131,7 @@ export const projectsData = [
     description:
       "Designed and developed a 15-page restaurant website with a responsive front-end and integrated back-end functionalities.",
     tags: ["HTML", "CSS", "JavaScript", "SQL", "PHP"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: newRozKababImg,
     linkUrl: "http://newroz-kebab.infinityfreeapp.com/?i=1",
   },
 ] as const;
