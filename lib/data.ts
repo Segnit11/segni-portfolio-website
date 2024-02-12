@@ -10,8 +10,8 @@ import csswebsiteImg from "@/public/CSS-websiteImg.png";
 import ticketImgs from "@/public/ticketImg.png";
 import portfolioSegniImg from "@/public/portfolio-segnit.png";
 import newRozKababImgs from "@/public/newRozKababImg.png";
-import chiefLanudary from "@/public/theChiefLanudary.png";
-import interactPhysics from "@/public/InteractivePhysics.png";
+import chiefLanudaryImg from "@/public/theChiefLanudary.png";
+import interactPhysicsImg from "@/public/InteractivePhysics.png";
 
 export const links = [
   {
@@ -138,7 +138,7 @@ export const projectsData = [
     description:
       "A Windows app, built with Java and GUI on NetBeans, simulates a quiz. It’s designed to make physics learning fun and engaging for middle schoolers.",
     tags: ["Java", "GUI"],
-    imageUrl: interactPhysics,
+    imageUrl: interactPhysicsImg,
     linkUrl: "https://github.com/Segnit11/Interactive-Physics",
   },
   {
@@ -146,7 +146,7 @@ export const projectsData = [
     description:
       "Driven by a love for cooking, I created an Android game to challenge skills in food prep, time management, and decision-making.",
     tags: ["Kotlin", "Grade", "Android Studio", "XML"],
-    imageUrl: theChiefLanudaryImg,
+    imageUrl: chiefLanudaryImg,
     linkUrl: "https://github.com/Segnit11/The-Chefs-Laundry-Android-Mobile-App",
   },
 ] as const;
