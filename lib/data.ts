@@ -6,15 +6,12 @@ import { LuGraduationCap } from "react-icons/lu";
 import { BsFillHouseFill } from "react-icons/bs";
 import { IoFastFood } from "react-icons/io5";
 import { IoInformationCircle } from "react-icons/io5";
-import corpcommentImg from "@/public/corpcomment.png";
 import csswebsiteImg from "@/public/CSS-websiteImg.png";
-import theChiefLanudaryImg from "@/public/theChiefLanudary.png";
-import interactivPhysicsImg from "@/public/InteravtivePhysics.png";
 import ticketImgs from "@/public/ticketImg.png";
 import portfolioSegniImg from "@/public/portfolio-segnit.png";
 import newRozKababImgs from "@/public/newRozKababImg.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import chiefLanudary from "@/public/theChiefLanudary.png";
+import interactPhysics from "@/public/InteractivePhysics.png";
 
 export const links = [
   {
@@ -137,20 +134,20 @@ export const projectsData = [
     linkUrl: "http://newroz-kebab.infinityfreeapp.com/?i=1",
   },
   {
-    title: "The Chiefs Laundary Android Mobile App",
-    description:
-      "Driven by a love for cooking, I created an Android game to challenge skills in food prep, time management, and decision-making.",
-    tags: ["Kotlin", "Grade", "Android Studio", "XML"],
-    imageUrl: theChiefLanudaryImg,
-    linkUrl: "https://github.com/Segnit11/The-Chefs-Laundry-Android-Mobile-App",
-  },
-  {
     title: "Interactive Physics Quiz",
     description:
       "A Windows app, built with Java and GUI on NetBeans, simulates a quiz. It’s designed to make physics learning fun and engaging for middle schoolers.",
     tags: ["Java", "GUI"],
     imageUrl: interactivPhysicsImg,
     linkUrl: "https://github.com/Segnit11/Interactive-Physics",
+  },
+  {
+    title: "The Chiefs Laundary Android Mobile App",
+    description:
+      "Driven by a love for cooking, I created an Android game to challenge skills in food prep, time management, and decision-making.",
+    tags: ["Kotlin", "Grade", "Android Studio", "XML"],
+    imageUrl: theChiefLanudaryImg,
+    linkUrl: "https://github.com/Segnit11/The-Chefs-Laundry-Android-Mobile-App",
   },
 ] as const;
 
