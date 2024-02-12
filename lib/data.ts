@@ -138,7 +138,7 @@ export const projectsData = [
     description:
       "A Windows app, built with Java and GUI on NetBeans, simulates a quiz. It’s designed to make physics learning fun and engaging for middle schoolers.",
     tags: ["Java", "GUI"],
-    imageUrl: interactivPhysicsImg,
+    imageUrl: interactPhysics,
     linkUrl: "https://github.com/Segnit11/Interactive-Physics",
   },
   {
