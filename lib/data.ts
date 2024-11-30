@@ -9,6 +9,7 @@ import { IoInformationCircle } from "react-icons/io5";
 import csswebsiteImg from "@/public/CSS-websiteImg.png";
 import ticketImgs from "@/public/ticketImg.png";
 import portfolioSegniImg from "@/public/portfolio-segnit.png";
+import pokedexImg from "@/public/pokedexImg.png";
 import newRozKababImgs from "@/public/newRozKababImg.png";
 import chiefLanudaryImg from "@/public/theChiefLanudary.png";
 import interactPhysicsImg from "@/public/InteractivePhysics.png";
@@ -47,30 +48,40 @@ export const experiencesData = [
     description:
       "I will graduate in May 2025 with a major in Computer Science and a concentration in Computing, along with a minor in Mathematics and Data Analytics.",
     icon: React.createElement(LuGraduationCap),
-    date: "Aug. 2021 –  May 2025",
+    date: "Aug. 2021 –  Dec 2025",
   },
   {
-    title: "Full-Stack Software Developer Intern",
+    title: "Software Engineer Intern",
     location: "Marvin Windows, Fargo, ND",
-    description:
-      "Led  mission-critical web application, resulting in significant efficiency gains across five facilities. Demonstrated expertise in C#, ASP.NET Core, .NET Framework, and React.js to create and maintain efficient API routes, ensuring seamless communication between system components. Successfully identified and resolved complex production issues in both React.js and .NET applications, leading to a noticeable improvement in system performance and heightened user satisfaction.",
+    description: `
+      Phase II: System Programming.
+      - Developed 5 advanced GUI interfaces using Ignition and Python, enhancing system control and reducing operator errors by 15%.
+      - Implemented a centralized MS SQL Server data repository, optimizing queries through indexing and stored procedures, resulting in a 30% improvement in work efficiency.
+      - Designed and implemented a recut feature that verifies if parts are cut correctly and redirects them for proper cutting if needed, reducing material waste and saving the company over $100,000 annually.
+      
+      Phase I: Full-Stack Software Development.
+      - Created an end-of-shift reporting tool that reduced report generation time by 40% and improved data accuracy, providing supervisors with a production analysis and daily summary via email.
+      - Collaborated with Design and Product teams to develop a machine metrics tool using APIs, C#, SQL, Azure, and JavaScript with React to track and display machine status on production line TV boards, improving operational efficiency by 45%.
+    `,
     icon: React.createElement(FaReact),
     date: "May 2023 - Present",
   },
   {
-    title: "IT Student Technician",
-    location:
-      "Information Technology Solution Center, Concordia College, Moorhead, MN",
-    description:
-      "I demonstrated exceptional problem-solving abilities by efficiently resolving a wide range of technical issues, consistently delivering effective solutions to optimize system performance. Additionally, I was responsible for installing and repairing minor software and hardware problems, ensuring minimal downtime and enhancing functionality for users. Providing exceptional online and phone support to customers was a key aspect of my role, where I consistently offered exemplary customer service, established strong connections, and swiftly resolved their technical concerns. ",
+    title: "IT Technician",
+    location: "Concordia ITS, Moorhead, MN",
+    description: `
+      - Showcased technical proficiency by addressing hardware, software, and Wi-Fi connectivity issues.
+      - Documented and troubleshot for 10 to 15 students and faculty weekly.
+      - Delivered exceptional online and phone support to customers, building strong connections and swiftly resolving their technical issues.
+    `,
     icon: React.createElement(FaComputer),
-    date: "Aug. 2023 - Present",
-  },
+    date: "Aug. 2023 - May 2024",
+  },    
   {
     title: "Project Manager - Computer Science Society Club",
     location: "Concordia College, Moorhead, MN",
     description:
-      "As a Project Manager in the Computer Science Club, I led and managed technology projects, collaborating with members to define goals and allocate tasks. My commitment to open communication played a pivotal role in cultivating a culture of transparency and collaboration. I also facilitated workshops and training sessions to mentor and support fellow members, promoting skill development and knowledge sharing.",
+      "- As a Project Manager in the Computer Science Club, I led and managed technology projects, collaborating with members to define goals and allocate tasks. - My commitment to open communication played a pivotal role in cultivating a culture of transparency and collaboration. - I also facilitated workshops and training sessions to mentor and support fellow members, promoting skill development and knowledge sharing.",
     icon: React.createElement(FcManager),
     date: "May 2023 - Present",
   },
@@ -78,7 +89,7 @@ export const experiencesData = [
     title: "Resident Assistant",
     location: "Concordia College, Moorhead, MN",
     description:
-      "Fostered a positive campus community by organizing engaging events promoting inclusivity and diversity, while serving as a mentor and role model for ethnically diverse students. Managed various responsibilities, including rounds, event planning, emergencies, and administrative tasks, effectively prioritizing to meet all deadlines.",
+      "- Fostered a positive campus community by organizing engaging events promoting inclusivity and diversity, while serving as a mentor and role model for ethnically diverse students. - Managed various responsibilities, including rounds, event planning, emergencies, and administrative tasks, effectively prioritizing to meet all deadlines.",
     icon: React.createElement(BsFillHouseFill),
     date: "Aug. 2022 - May 2023",
   },
@@ -86,7 +97,7 @@ export const experiencesData = [
     title: "Student Manager - Dinning Service",
     location: "Concordia College, Moorhead, MN",
     description:
-      "Managed and supervised a team of dining service staff, overseeing daily operations and staff scheduling. Improved team performance and morale through effective leadership and training. Optimized resource allocation and controlled budgets, resulting in improved efficiency and cost savings.",
+      "- Managed and supervised a team of dining service staff, overseeing daily operations and staff scheduling. - Improved team performance and morale through effective leadership and training. - Optimized resource allocation and controlled budgets, resulting in improved efficiency and cost savings.",
     icon: React.createElement(IoFastFood),
     date: "Aug. 2021 –  May 2022",
   },
@@ -94,13 +105,21 @@ export const experiencesData = [
     title: "Campus Information and Public Safety",
     location: "Concordia College, Moorhead, MN",
     description:
-      "I monitored and responded to radio and emergency systems to ensure a safe campus environment. I also welcomed visitors, answered their questions, and provided assistance as needed. Additionally, I played a role in organizing and maintaining files and records, ensuring they were updated as necessary.",
+      "- I monitored and responded to radio and emergency systems to ensure a safe campus environment. - I also welcomed visitors, answered their questions, and provided assistance as needed. - I played a role in organizing and maintaining files and records, ensuring they were updated as necessary.",
     icon: React.createElement(IoInformationCircle),
     date: "Aug. 2023 – Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Pokdex App",
+    description:
+      "A full-stack Pokedex web app that lets users browse Pokémon, view them with pagination, filter results by various parameters, and capture Pokémon. ",
+    tags: ["Next.js", "Spring Boot (Java)", "PostgreSQL", "Docker", "GitLab CI/CD"],
+    imageUrl: pokedexImg,
+    linkUrl: "https://segnitulu.vercel.app",
+  },
   {
     title: "Personal Portfolio",
     description:
@@ -152,26 +171,40 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Github",
-  "TailwindCSS",
-  "MongoDB",
-  "Redux",
-  "SQL",
-  "PostgreSQL",
   "Java",
-  "C#",
-  "PHP",
   "Python",
   "Kotlin",
+  "JavaScript (React)",
+  "JavaScript (Angular)",
+  "Ruby",
+  "C#",
+  "C++",
+  "C",
+  "Assembly",
+  "PHP",
+  "SQL",
+  "Next.js",
+  "React",
+  "Angular",
+  "Spring Boot",
+  "Node.js",
+  "Android Studio",
+  "HTML5",
+  "CSS",
+  "Bootstrap",
+  "PostgreSQL",
+  "MS SQL",
+  "MongoDB",
+  "Firebase",
+  "AWS",
+  "Azure",
   "Docker",
+  "Git",
+  "GitHub",
+  "GitLab CI/CD",
+  "Gradle",
   "Postman",
-  "Framer Motion",
+  "Jira",
+  "Confluence"
 ] as const;
+

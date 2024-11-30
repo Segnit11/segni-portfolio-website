@@ -21,53 +21,58 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
-        <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
-          >
-            <Image
-              src={segniPicImg}
-              alt="Segni Pic"
-              width="500"
-              height="500"
-              quality="95"
-              priority={true}
-              className="h-32 w-32 rounded-full object-cover border-[0.3rem] border-white-700 shadow-xl"
-            />
-          </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
-        </div>
+      <div className="flex items-center justify-between ">
+      {/* Left side: Text */}
+      <div className="flex flex-col">
+        <motion.h1
+          className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <span className="text-md">Hi, my name is </span>
+          <span className="text-3xl font-bold">Segni Tulu</span>
+          <span className="text-5xl font-bold block">I am a full-stack Software Developer.</span>
+        </motion.h1>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Full-Stack Software Developer Intern with One Year of Experience</span>{" "}
-        <span className="font-bold">Passionate about Crafting Websites and Apps.</span>{" "}Specializing in{" "}
-        <span className="font-bold underline">React (Next.js)</span>. 
-      </motion.h1>
+      {/* Right side: Image */}
+      <div className="relative">
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: "tween",
+            duration: 0.2,
+          }}
+        >
+          <Image
+            src={segniPicImg}
+            alt="Segni Pic"
+            width="600"
+            height="600"
+            quality="95"
+            priority={true}
+            className="object-cover border-[0.3rem] border-white-700 shadow-xl"
+          />
+        </motion.div>
+          <br/>
+        <motion.span
+          className="absolute bottom-0 right-0 text-4xl"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: "spring",
+            stiffness: 125,
+            delay: 0.1,
+            duration: 0.7,
+          }}
+        >
+          👋
+        </motion.span>
+      </div>
+    </div>
 
+    <br/><br/>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -84,7 +89,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Get in Touch{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -93,7 +98,7 @@ export default function Intro() {
           href="/Resume_Segni_Tulu.pdf"
           download
         >
-          Download CV{" "}
+          RESUME{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

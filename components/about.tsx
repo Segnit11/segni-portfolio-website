@@ -20,27 +20,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a junior majoring in {" "}
-        <span className="font-medium">Computer Science and minoring in Mathematics and Data Analytics{" "}</span>
-        at Concordia College.{" "}
-        <span className="font-medium bold">Currently, I'm gaining hands-on experience as a full-stack developer 
-        intern at Marvin</span>.{" "}
-        <span className="italic">I'm passionate about applying my technical skills to real-world projects.{" "}</span> 
-        <span className="underline">Proficient mainly in front-end and technologies, including HTML, CSS, JavaScript, 
-        React, and Node.js,</span> I'm dedicated to crafting user-friendly solutions.{" "}
-        <span className="font-medium bold">
-        My goal is to leverage my academic foundation and internship experience to create innovative web applications and 
-				data-driven solutions.</span>{" "}I am also familiar with TypeScript and have a beginner knowledge on prisma. I am always looking to
-        learn new technologies. I am looking for a{" "}
-        <span className="font-medium">as a software developer internship position.</span> 
+          My name is Segni Tulu, and I am an aspiring full-stack software engineer pursuing a Bachelor’s degree in Computer Science with minors in Mathematics, Cybersecurity, and Data Analytics. <br /><br />
+          I have experience with a wide range of programming languages and technologies, enabling me to thrive in both individual and collaborative development environments. <br /><br />
+          Currently, I am engaged in full-stack development projects where I apply my expertise to streamline workflows, improve user experiences, and contribute to high-impact initiatives. <br /><br />
+          Passionate about continuous learning, I excel in team settings and strive to make meaningful contributions to every software engineering project I undertake. <br />
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>,  I enjoy challenging myself with different activities like going 
-        to the gym, reading tech blogs, and playing soccer.  I'm also passionate about {" "}
-        <span className="font-medium">open-source contributions and keeping up with the latest trends in front-end development.
-        </span>.
-      </p>
     </motion.section>
   );
 }
